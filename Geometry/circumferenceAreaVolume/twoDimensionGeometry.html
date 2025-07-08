@@ -28,6 +28,20 @@ div {text-align: center;}
   background-color: #04AA6D;
   color: white;
 }
+/*table/container style*/
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.item {
+  flex: 1;
+  /* These can be changed or removed without affecting the layout / scrollbars */
+  padding: 5px;
+  margin: 5;
+}
+.item-green { background: green; }
+.item-blue { background: blue; }
+.item-white { background: whitesmoke; }
 </style>
 
 <body style="background-color: #00274C;"> 
@@ -37,9 +51,53 @@ div {text-align: center;}
 <button class="button buttonHome">Home</button></a>
 
 
-
 <h1>Two Dimension Geometry Index Page</h1>
 <p>Content here >></p>
+
+<!--Table starts here-->
+<div class="container">
+  <div class="item item-white">
+row 1 col 1 
+<br>
+<a href="http://www.google.com">
+<!-- "../" this brings the file location one level up from the current folder -->
+<img src="../../icons/pixelHeart2.png" title = "heart shape" height = "300" width = "300" align = "middle"> </a>
+   </div>
+  <div class="item item-white">
+row 1 col 2
+
+  </div>
+  <div class="item item-white">
+row 1 col 3
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="item item-white">
+row 2 col 1
+  </div>
+  <div class="item item-white">
+row 2 col 2 
+  </div>
+  <div class="item item-white">
+row 2 col 3
+  </div>
+</div>
+
+<div class="container">
+  <div class="item item-white">
+row 3 col 1
+  </div>
+  <div class="item item-white">
+row 3 col 2 
+  </div>
+  <div class="item item-white">
+row 3 col 3
+  </div>
+</div>
+<!--Table ends here-->
+
 
 
 

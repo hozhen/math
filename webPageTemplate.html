@@ -32,7 +32,26 @@ div {text-align: center;}
   background-color: #04AA6D;
   color: white;
 }
-</style>
+/*table/container style*/
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.item {
+  flex: 1;
+  /* These can be changed or removed without affecting the layout / scrollbars */
+  padding: 5px;
+  margin: 5;
+}
+.item-green { background: green; }
+.item-blue { background: blue; }
+.item-white { background: whitesmoke; }
+</style> 
+<!--end of style -->
+<!--end of style -->
+<!--end of style -->
+
+
 
 <!--Dark Background-->
 <body style="background-color: #00274C;"> 
@@ -45,6 +64,54 @@ div {text-align: center;}
 
 <h1>Title Here >> </h1>
 <p>Content here >></p>
+
+
+<!--Table starts here-->
+<div class="container">
+  <div class="item item-white">
+row 1 col 1 <br>
+
+   </div>
+  <div class="item item-white">
+row 1 col 2 <br>
+
+  </div>
+  <div class="item item-white">
+row 1 col 3 <br>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="item item-white">
+row 2 col 1 <br>
+
+  </div>
+  <div class="item item-white">
+row 2 col 2 <br>
+
+  </div>
+  <div class="item item-white">
+row 2 col 3 <br>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="item item-white">
+row 3 col 1 <br>
+
+  </div>
+  <div class="item item-white">
+row 3 col 2 <br>
+
+  </div>
+  <div class="item item-white">
+row 3 col 3 <br>
+
+  </div>
+</div>
+
 
 
 
